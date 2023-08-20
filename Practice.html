@@ -18,9 +18,7 @@
         <label for="fecha-nacimiento"><i>Fecha de nacimiento</i></label>
         <input type="date" id="fecha-nacimiento">
         <br>
-        <button>Enviar</button>
-        <button>Cancelar</button>
-        <div>
+        <div style="border: 1px solid black">
             <h4>¿Qué tipos de eventos desea organizar?</h4>
             <label>
                 <input type="checkbox" id="cumpleanios" value="cumpleanios" name="tipo-evento"/><i>Cumpleaños</i>
@@ -39,6 +37,20 @@
                 <input type="text" id="detalle-otro">
             </label>
         </div>
+        <br>
+        <div style="border: 1px solid black">
+            <h4>¿Usará Event Planner profesionalmente?</h4>
+            <label>
+                <input type="radio" id="si" name="opcion-uso-profesional"/><em>Si</em>
+            </label>
+            <br>
+            <label>
+                <input type="radio" id="no" name="opcion-uso-profesional"/><em>No</em>
+            </label>
+        </div>
+
+        <button>Enviar</button>
+        <button>Cancelar</button>
     </div>
 </body>
 </html>
