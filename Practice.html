@@ -10,16 +10,35 @@
     <div style="border: 1px solid black">
         <h4>Complete el formulario para comenzar</h4>
         <br>
-        <label for="nombre">Nombre</label>
+        <label for="nombre"><i>Nombre</i></label>
         <input type="text" id="nombre">
-        <label for="apellido">Apellido</label>
+        <label for="apellido"><i>Apellido</i></label>
         <input type="text" id="apellido">
         <br>
-        <label for="fecha-nacimiento">Fecha de nacimiento:</label>
+        <label for="fecha-nacimiento"><i>Fecha de nacimiento</i></label>
         <input type="date" id="fecha-nacimiento">
         <br>
         <button>Enviar</button>
         <button>Cancelar</button>
+        <div>
+            <h4>¿Qué tipos de eventos desea organizar?</h4>
+            <label>
+                <input type="checkbox" id="cumpleanios" value="cumpleanios" name="tipo-evento"/><i>Cumpleaños</i>
+            </label>
+            <br>
+            <label>
+                <input type="checkbox" id="bautismo" value="bautismo" name="tipo-evento"/><i>Bautismo</i>
+            </label>
+            <br>
+            <label>
+                <input type="checkbox" id="casamiento" value="casamiento" name="tipo-evento"/><i>Casamiento</i>
+            </label>
+            <br>
+            <label>
+                <input type="checkbox" id="otro" value="otro" name="tipo-evento"/><i>Otro</i>
+                <input type="text" id="detalle-otro">
+            </label>
+        </div>
     </div>
 </body>
 </html>
